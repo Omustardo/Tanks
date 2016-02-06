@@ -1,0 +1,2 @@
+C:\Users\Omar\Desktop\HTML5 Game\Tanks\Tanks\obj\Debug\Tanks.njsprojResolveAssemblyReference.cache
+C:\Users\Omar\Desktop\HTML5 Game\Tanks\Tanks\bin\Microsoft.NodejsTools.WebRole.dll

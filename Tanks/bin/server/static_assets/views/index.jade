@@ -1,0 +1,31 @@
+﻿head
+  meta(charset="utf-8")
+  meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+  title Tank Battle
+  meta(name="description" content="")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  link(rel="stylesheet" href="/static_assets/css/bootstrap.min.css")
+  link(rel="stylesheet" href="/static_assets/css/tanks.css")
+  link(rel="shortcut icon" href="/static_assets/img/icon.png")
+
+body
+  div(id="prompt" class="name-prompt")
+    div(class="input-group")
+        input(id="tank-name" type="text" class="form-control" placeholder="Name your tank" autocomplete="off")
+        span(class="input-group-btn")
+          input(id="join" class="btn btn-primary" type="submit" value="Join the battle")
+      div(class="tank-select col-md-12")
+        label Choose your tank:
+          ul(class="tank-selection")
+            li(class="selected" data-tank="1")
+              img(src="/static_assets/img/preview-tank-1.png")
+            li(data-tank="2")
+              img(src="/static_assets/img/preview-tank-2.png")
+            li(data-tank="3")
+              img(src="/static_assets/img/preview-tank-3.png")
+  div(id="arena" class="arena")
+  
+  script(type="text/javascript" src="/static_assets/js/lib/jquery.min.js")
+  script(src="/socket.io/socket.io.js")
+  script(type="text/javascript" src="/static_assets/js/lib/require.js" data-main="/js/client.js")
+  

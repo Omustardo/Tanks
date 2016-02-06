@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Tanks", "Tanks\Tanks.njsproj", "{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Client|Any CPU = Client|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Server|Any CPU = Server|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Client|Any CPU.ActiveCfg = Client|Any CPU
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Client|Any CPU.Build.0 = Client|Any CPU
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Server|Any CPU.ActiveCfg = Server|Any CPU
+		{BE01FCB7-B91E-4452-BAA7-15655B4B2CF0}.Server|Any CPU.Build.0 = Server|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
